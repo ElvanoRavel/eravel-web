@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0b0b" />
+    <title>ElvanoRavel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/project-details.css" />
+  </head>
+  <body>
+    <main class="project-detail">
+      <header class="project-detail-header">
+        <a class="project-detail-brand" href="../index.html">Elvano Ravel</a>
+        <a class="project-back-link" href="../index.html#work-title">&lt; Back to projects</a>
+      </header>
+      <article class="project-detail-content">
+        <div class="project-detail-image">
+          <img src="../assets/project-03.png" alt="Glowing holographic N symbol for Nfc Relay Attack" />
+        </div>
+        <div class="project-detail-copy">
+          <h1 class="project-detail-title">Nfc Relay Attack</h1>
+          <section class="project-detail-section" aria-labelledby="project-description-title">
+            <h2 class="project-detail-label" id="project-description-title">Deskripsi</h2>
+            <p class="project-detail-description">
+              NFC Relay Attack adalah proyek riset keamanan siber yang mengkaji kelemahan asumsi jarak pada komunikasi NFC. Secara konseptual, relay terjadi ketika komunikasi antara pembaca NFC dan token yang sah diteruskan melalui perantara, sehingga sistem dapat menerima respons tanpa memastikan keduanya benar-benar berdekatan. Riset ini membantu memahami risiko pada sistem pembayaran, akses, dan identifikasi nirkontak serta cara memperkuat validasi kedekatan dan kepercayaan perangkat.
+            </p>
+          </section>
+          <section class="project-detail-section" aria-labelledby="project-function-title">
+            <h2 class="project-detail-label" id="project-function-title">Fungsi</h2>
+            <ol class="project-detail-functions">
+              <li>Mempelajari cara kerja komunikasi NFC dan asumsi kedekatan yang digunakan dalam interaksi nirkontak.</li>
+              <li>Menjelaskan secara konseptual risiko ketika sistem menganggap respons NFC selalu berasal dari perangkat yang berada di dekat pembaca.</li>
+              <li>Mengevaluasi dampak relay terhadap model kepercayaan pada sistem pembayaran, kontrol akses, dan identifikasi.</li>
+              <li>Mengidentifikasi batas mekanisme autentikasi yang tidak memvalidasi jarak secara memadai.</li>
+              <li>Mengkaji pengaruh waktu respons dan karakteristik komunikasi terhadap penilaian kedekatan oleh sistem.</li>
+              <li>Mendukung pengujian keamanan terkontrol menggunakan perangkat, token, dan sistem simulasi yang telah mendapat izin.</li>
+              <li>Mendokumentasikan perilaku sistem uji dan potensi risiko tanpa menguji transaksi atau akses nyata.</li>
+              <li>Mengkaji mitigasi seperti distance-bounding, pembatasan waktu respons, dan konfirmasi pengguna.</li>
+              <li>Mendorong penggunaan autentikasi berlapis serta pemantauan pola transaksi atau akses yang tidak wajar.</li>
+              <li>Menyusun rekomendasi defensif untuk meningkatkan keamanan dan kesadaran terhadap teknologi NFC.</li>
+            </ol>
+          </section>
+        </div>
+      </article>
+    </main>
+    <script src="../js/main.js" defer></script>
+  </body>
+</html>

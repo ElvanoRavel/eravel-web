@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ElvanoRavel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/sections.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="hero-title" data-chat-theme="blue">
+        <header class="site-header">
+          <div class="identity">
+            <img class="profile-photo" src="assets/profile.jpg" alt="Elvano Ravel" />
+            <div class="wordmark">
+              <strong>Elvano Ravel</strong>
+            </div>
+          </div>
+          <a class="contact-link" href="#contact-title">Get in touch <span aria-hidden="true">↓</span></a>
+        </header>
+
+        <div class="arcade-chase" aria-hidden="true">
+          <svg class="arcade-chase__map" viewBox="0 0 720 180" preserveAspectRatio="none" role="presentation">
+            <path class="arcade-chase__track" d="M0 90H152Q170 90 170 72V54Q170 36 188 36H342Q360 36 360 54V126Q360 144 378 144H532Q550 144 550 126V108Q550 90 568 90H720" />
+            <path class="arcade-chase__pellets" d="M0 90H152Q170 90 170 72V54Q170 36 188 36H342Q360 36 360 54V126Q360 144 378 144H532Q550 144 550 126V108Q550 90 568 90H720" />
+          </svg>
+          <svg class="arcade-chase__actor arcade-chase__runner" viewBox="0 0 36 36">
+            <path d="M18 3C9.7 3 4 9.1 4 17.8V32l7-4 7 4 7-4 7 4V17.8C32 9.1 26.3 3 18 3Z" fill="#245de8" />
+            <ellipse cx="13" cy="16" rx="2.2" ry="3" fill="#fff" />
+            <ellipse cx="23" cy="16" rx="2.2" ry="3" fill="#fff" />
+          </svg>
+          <svg class="arcade-chase__actor arcade-chase__chomper" viewBox="0 0 36 36">
+            <circle cx="18" cy="18" r="16" fill="#f8d84a" />
+            <path class="arcade-chase__mouth" d="M18 18 36 7 36 29Z" fill="#0b0b0b" />
+          </svg>
+        </div>
+
+        <div class="hero-copy">
+          <h1 id="hero-title">
+            <span class="hero-line"><span>Explore.</span></span>
+            <span class="hero-line"><span>Analyze.</span></span>
+            <span class="hero-line"><span>Defend.</span></span>
+          </h1>
+        </div>
+      </section>
+
+      <section class="my-work" aria-labelledby="work-title">
+        <h2 class="work-title" id="work-title" data-reveal>My Work</h2>
+        <div class="project-grid">
+          <article class="project-card" data-reveal>
+            <div class="project-image has-photo">
+              <img src="assets/project-01.png" alt="Potret hologram digital wanita berbasis biner" />
+              <a class="project-link" href="projects/ellen-ai-deepfake.html">
+                View Project <span aria-hidden="true">&gt;</span>
+              </a>
+            </div>
+            <h3>Ellen - Ai Deepfake</h3>
+          </article>
+          <article class="project-card" data-reveal>
+            <div class="project-image has-photo">
+              <img src="assets/project-03.png" alt="Logo N holografis dari kode biner bercahaya biru" />
+              <a class="project-link" href="projects/nfc-relay-attack.html">
+                View Project <span aria-hidden="true">&gt;</span>
+              </a>
+            </div>
+            <h3>Nfc Relay Attack</h3>
+          </article>
+          <article class="project-card" data-reveal>
+            <div class="project-image has-photo">
+              <img src="assets/project-06.png" alt="Zeus holografis dengan petir digital bercahaya biru" />
+              <a class="project-link" href="projects/zeus-apk-builder.html">
+                View Project <span aria-hidden="true">&gt;</span>
+              </a>
+            </div>
+            <h3>Zeus - Apk Builder</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="my-work-continuation" aria-labelledby="work-continuation-title">
+        <h2 class="work-title" id="work-continuation-title" data-reveal>More projects</h2>
+        <div class="project-grid">
+          <article class="project-card" data-reveal>
+            <div class="project-image has-photo">
+              <img src="assets/project-04.png" alt="Merpati holografik dari kode biner bercahaya biru" />
+              <a class="project-link" href="projects/pigeonseye-malware.html">
+                View Project <span aria-hidden="true">&gt;</span>
+              </a>
+            </div>
+            <h3>PigeonsEye - Malware</h3>
+          </article>
+          <article class="project-card" data-reveal>
+            <div class="project-image has-photo">
+              <img src="assets/project-05.png" alt="Agen AI sibernetik bercahaya biru dari kode biner" />
+              <a class="project-link" href="projects/ai-agentic-cyber.html">
+                View Project <span aria-hidden="true">&gt;</span>
+              </a>
+            </div>
+            <h3>Ai Agentic Cyber</h3>
+          </article>
+          <article class="project-card" data-reveal>
+            <div class="project-image has-photo">
+              <img src="assets/project-02.png" alt="Gagang telepon holografik dari kode biner bercahaya biru" />
+              <a class="project-link" href="projects/ai-call-center.html">
+                View Project <span aria-hidden="true">&gt;</span>
+              </a>
+            </div>
+            <h3>Ai Call Center</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="about" aria-label="About Elvano" data-chat-theme="white">
+        <p data-reveal>
+          I explore cybersecurity through
+          <span class="scroll-fill-accent">authorized testing          </span> and defensive research, then share practical security insights.
+        </p>
+      </section>
+
+      <section class="contact" aria-labelledby="contact-title" data-chat-theme="black">
+        <div class="contact-copy">
+          <h2 id="contact-title" data-reveal>Got a project?</h2>
+          <p data-reveal>Let’s build something great together.</p>
+          <a class="email-link" data-reveal href="mailto:eraveldev@gmail.com">eraveldev@gmail.com</a>
+          <ul class="social-icons" aria-label="Social media" data-reveal>
+            <li>
+              <a href="https://youtube.com/@elvanoravel?si=dwqucn1NOBsUn6D-">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z" />
+                </svg>
+                <span class="visually-hidden">YouTube</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.tiktok.com/@elvan.dev?_r=1&amp;_t=ZS-9B7XVlkFUmX">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M19.6 6.1a5.7 5.7 0 0 1-3.5-3.5 6.5 6.5 0 0 1-.3-1.6h-4.1v15.3a2.8 2.8 0 1 1-2.8-2.8c.4 0 .8.1 1.2.3V9.6a7 7 0 1 0 5.7 6.9V8.7a9.8 9.8 0 0 0 5.7 1.8V6.4c-.7 0-1.3-.1-1.9-.3Z" />
+                </svg>
+                <span class="visually-hidden">TikTok</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/elvanoravel?exln=MTd2YnZmemU4eDFibg==">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7.2 2h9.6A5.2 5.2 0 0 1 22 7.2v9.6a5.2 5.2 0 0 1-5.2 5.2H7.2A5.2 5.2 0 0 1 2 16.8V7.2A5.2 5.2 0 0 1 7.2 2Zm0 2A3.2 3.2 0 0 0 4 7.2v9.6A3.2 3.2 0 0 0 7.2 20h9.6a3.2 3.2 0 0 0 3.2-3.2V7.2A3.2 3.2 0 0 0 16.8 4H7.2Zm4.8 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.3-3.5a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4Z" />
+                </svg>
+                <span class="visually-hidden">Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/6287867738173">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2a9.9 9.9 0 0 0-8.5 15l-1.3 4.8 4.9-1.3A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1 1 12 20Zm4.4-5.9c-.2-.1-1.5-.8-1.7-.8s-.4-.1-.6.1-.7.8-.8 1c-.2.2-.3.2-.6.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.4-1.8c-.2-.3 0-.4.1-.6l.4-.4.2-.4v-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.8 4.4 3.9.6.3 1.1.4 1.4.5.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.3-.2-.5-.3Z" />
+                </svg>
+                <span class="visually-hidden">WhatsApp</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/ElvanoRavel">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 .9a11.1 11.1 0 0 0-3.5 21.6c.55.1.76-.24.76-.53v-2.02c-3.1.68-3.76-1.32-3.76-1.32-.5-1.3-1.24-1.65-1.24-1.65-1.01-.7.08-.69.08-.69 1.12.08 1.7 1.15 1.7 1.15.99 1.7 2.6 1.2 3.23.91.1-.72.39-1.2.7-1.48-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.12-1.44 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.61 5.23-5.1 5.5.4.35.75 1.03.75 2.08v3.04c0 .3.2.64.77.53A11.1 11.1 0 0 0 12 .9Z" />
+                </svg>
+                <span class="visually-hidden">GitHub</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="copyright" data-reveal>© 2026 Elvano Ravel</p>
+      </section>
+    </main>
+    <div class="chat-widget">
+      <span class="chat-label">Talk with AI</span>
+      <button
+        class="chat-bubble"
+        type="button"
+        aria-label="Talk with AI"
+        aria-haspopup="dialog"
+        aria-controls="talk-dialog"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 3a9 9 0 0 0-7.7 13.65L3 21l4.5-1.3A9 9 0 1 0 12 3Zm0 16a7 7 0 0 1-3.6-1l-.4-.2-2.7.8.8-2.6-.3-.4A7 7 0 1 1 12 19Zm-3.5-7.8a1 1 0 1 0 0 2h7a1 1 0 1 0 0-2h-7Z" />
+        </svg>
+      </button>
+    </div>
+    <dialog class="talk-dialog" id="talk-dialog" aria-labelledby="talk-dialog-message">
+      <button class="talk-dialog-close" type="button" aria-label="Tutup">×</button>
+      <p id="talk-dialog-message" lang="id">Hi, terimakasih sudah mengunjungi portfolio saya, fitur talk with ai akan segera hadir ya!</p>
+    </dialog>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
